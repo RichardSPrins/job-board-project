@@ -1,6 +1,6 @@
-# Project Title
+# Job Board Project
 
-One Paragraph of project description goes here
+Simple Job Board application that utilizes API data to render some entry level Development jobs
 
 ## Getting Started
 
@@ -8,29 +8,28 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Clone thr repository to your local machine: 
 
 ```
-Give examples
+git clone https://github.com/RichardSPrins/job-board-project.git
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+If you are using NPM, you can install all necessary dependencies with 
 
 ```
-Give the example
+npm i
 ```
 
-And repeat
+once you have all necessary dependencies, run
 
 ```
-until finished
+npm start
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -58,9 +57,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [React](https://www.reactjs.org/) - The web framework used
+* [Redis](https://redis.io/) - Used as a data store
 
 ## Contributing
 
@@ -68,11 +66,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Scott Prins** - *Solo Project* - [RichardSPrins](https://github.com/RichardSPrins)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

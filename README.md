@@ -58,6 +58,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [React](https://www.reactjs.org/) - The web framework used
+* [Material UI](https://material-ui.com/) - The web framework used
 * [Redis](https://redis.io/) - Used as a data store
 
 ## Contributing

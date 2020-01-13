@@ -1,21 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
-import NavLinks from '../NavLinks/NavLinks.component'
+import HeaderContent from '../HeaderContent/HeaderContent.component'
 
 
 const Header = styled.div`
-  height: 75px;
-  background-color: #0099cc;
+  height: 60px;
+  background-color: #1f364d;
   display: flex;
   align-items: center;
-  justify-content: space-between
+  justify-content: center;
+  margin-bottom: 20px;
 `
 
 const Navbar = () => {
   return (
     <Header>
-      <h1>Job Board</h1>
-      <NavLinks />
+      <HeaderContent />
     </Header>
   )
 }
